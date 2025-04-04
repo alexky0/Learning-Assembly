@@ -6,10 +6,10 @@ section .bss
 
 section .text
 
-extern ExitProcess
+extern _ExitProcess@4
 
 global __start
 
 __start:
     PUSH 0
-    CALL ExitProcess
+    CALL _ExitProcess@4

@@ -1,7 +1,7 @@
 bits 32
 
 section .data
-    helloMsg db "Hello, World!", 0Dh, 0Ah          
+    helloMsg db "Hello, World!", 0Dh, 0Ah
     helloLen equ $ - helloMsg
 
 section .bss

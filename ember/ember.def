@@ -1,0 +1,6 @@
+LIBRARY ember
+EXPORTS
+    _emInit
+    _emCreateWindow
+    _emDestroyWindow
+    _emTerminate
